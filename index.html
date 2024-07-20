@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venky's Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10849960e2.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Ven<span>ky.</span></h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero-intro">
+             
+               <div>
+                 
+                <h2>HOLA,</h2>
+                <h3>
+                    Venkatesh Konnipati
+                </h3>
+               <h4> I'm a <span class="text"></span></h4>
+
+
+               </div>
+               <div class="image">
+                <img src="images/Hero_1.png" class="hero-image">
+
+               </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/hero1.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>A highly passionate Computer Science student with a keen interest in web designing and development. Additionally, a certified professional UX/UI designer, renowned for his imaginative and innovative designs born from a vivid imagination. Thriving in collaborative team environments and possess strong self-motivation. Furthermore, Capable of leading teams effectively. Naturally expressive and articulate, has the ability to influence others with the power of words.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>March - current</span><br>Internship at Guvi.com</li>
+                            <li><span>June</span><br>Trainee at ORIGIN STUDIOS, Bangladesh</li>
+                            <li><span>Current</span><br>Full time designer at ORIGIN STUDIOS, Bangladesh</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>UI/UX Design Training at ORIGIN STUDIOS, Bangladesh</li>
+                            <li><span>2024</span><br>UI/UX Design Training at Skill Development, AP.</li>
+                            <li><span>2023</span><br>Btech from SRM Andra Pradesh.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ---------------- services ---------------- -->
+     <div id="services">
+        <div class="container">
+            <h2 class="sub-title">My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Design</h3>
+                    <p>Welcome to my web designing service! With expertise in UX/UI design, I create visually stunning and user-centric websites using Figma. My goal is to transform your ideas into beautifully crafted digital experiences that are both functional and aesthetically pleasing. Let’s collaborate to bring your vision to life with a design that stands out and engages your audience.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h3>UI/UX</h3>
+                    <p>In the realm of UI/UX design, my focus is on crafting intuitive and visually compelling user interfaces that enhance user satisfaction and engagement. Using tools like Figma, I translate complex requirements into simple, elegant designs that prioritize user experience. From wireframing and prototyping to final mockups, my goal is to create seamless, user-friendly interactions that align with both user needs and business goals.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h3>App Design</h3>
+                    <p>Specializing in app design, I create user-centric mobile applications that are not only functional but also visually appealing. Utilizing tools like Figma, I design intuitive interfaces that provide a seamless user experience across various devices. From initial wireframes to high-fidelity prototypes, my approach ensures that every interaction is smooth, engaging, and aligned with the latest design trends and user expectations.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Services</h2>
+            <div class="work-list">
+                <div class="work">
+
+                </div>
+            </div>
+
+        </div>
+     </div>
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <p><i class="fa-solid fa-paper-plane"></i> konnipativenkatesh@gmai.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 8125512073</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/venkatesh_konnipati?igsh=YWowM3J5ZWN6bGp1&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/venkatesh-konnipati-402b7a290/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>    
+                    
+
+                
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>copyright © venky 2024. All rights reserved.</p>
+        </div>
+     </div>
+    
+<script src="main.js"></script>
+
+<script>
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxwbjIypibZY0LT_EfHZhAHFIr1slwkBOJfZMtagCedNDXWhBB3dBOJOyShyuTaRSdI/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Message sent successfully..!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },8000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+</script>
+</body>
+</html>
